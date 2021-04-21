@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  int a,b,c;
+  printf("enter the three number");
+  scanf("%d%d%d",&a,&b,&c);
+  (a>b&&a>c)?printf("a is largest%d\n",a):(b>c&&b>a)?printf("b is largest%d\n",b):printf("c is largest%d\n",c);
+  getch();
+  return 0;
+  }
